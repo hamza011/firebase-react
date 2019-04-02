@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form{
+  text-align: center;
+}
+.inpField{
+  /* border: none;   */
+  margin: 15px;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 6px;
+  border: 1px solid darkgray;
+}
+.inpField:focus {
+  border: none;
+  outline: none;
+  border: 1px solid #4cae4c;
+}
+.submit{
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border-color: #4cae4c;
+  background-color: #5cb85c;
+}
+ul{
+  color: #fff;
+}
+li{
+  padding: 0 0 15px 0;
+}
+.delBtn{
+  border: none;  
+  outline: none;
+  margin: 0 15px;
+  cursor: pointer;
+  padding: 4px 10px;
+  transition: 0.3s all ease;
+  border-right: 3px solid gainsboro;
+  background-image: linear-gradient(to left, #ea4848 0, #e09494 100%);
+}
+.delBtn:hover{
+  background-image: linear-gradient(to left, #ff0000 0, #e09494 100%);
+}
+.deleteAllBtn{
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-left: 22px;
+  background-color: #d9534f;
+}
+.notification{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px 20px 8px 20px;
+  /* background: #0f540f; */
+  background-image: linear-gradient(to left, #96dd39 0, #000000 100%);
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+}
+.notification img{
+  height: 18px;
+  width: 18px;
+  position: relative;
+  top: 3px;
+  right: 5px;
+}
